@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "'Segoe UI'", Roboto, Oxygen, Ubuntu, Cantarell, "fira sans" "driod Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #435165;
+    margin: 0;
+}
+
+.login,
+.register {
+    width: 480px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    border-radius: 10%;
+    
+}
+
+.login h1,
+.register h1 {
+    text-align: center;
+    color: rgb(19, 34, 243);
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+
+.login .links,
+.register .links {
+    display: flex;
+    padding: 0 15px;
+}
+
+.login .links a,
+.register .links a {
+    color: #adb2ba;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0 10px 10px 10px;
+    font-weight: bold;
+}
+
+.login .links a:hover,
+.register .links a:hover {
+    border-bottom: 3px solid rgb(36, 15, 224);
+    color: rgb(16, 30, 224);
+}
+
+.login form .register form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.login form label,
+.register form label {
+    margin-left: 15%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(42, 8, 233);
+    color: #ffffff;
+}
+
+.login form input[type="password"],
+.login form input[type="text"],
+.login form input[type="email"],
+.register form input[type="password"],
+.register form input[type="text"],
+.register form input[type="email"] {
+    margin-left: 70px;
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.register form button,
+.login form button{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 35%;
+    transition: background-color 0.2s;
+
+}
+.register form button :hover,
+.login form button:hover{
+    background-color: brown;
+    transition: background-color 0.2s;
+}
