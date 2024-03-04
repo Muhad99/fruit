@@ -51,8 +51,9 @@
                         <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
                     </div>
                     <div class="top-link pe-2">
-                        <a href="{{ url_for('log') }}" class="text-white"><small class="text-white mx-2">Login</small>/</a>
-                        <a href="{{ url_for('reg') }}" class="text-white"><small class="text-white ms-2">Register</small></a>
+                        <a href="#" class="text-white"><small class="text-white mx-2">{{session.username}}</small>/</a>
+                        <a href="{{ url_for('logout') }}" class="text-white"><small class="text-white mx-2">Logout</small></a>
+                         
                     </div>
                 </div>
             </div>
